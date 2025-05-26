@@ -9,8 +9,8 @@ const StoreContextProvider = (props) => {
     const [food_list, setFood_list] = useState([]);
 
     // Automatically switch between local and production
-    // const url = "https://pizza-hat.onrender.com" || "http://localhost:4000";
-    const url = "http://localhost:4000";
+    const url = "https://pizza-hat.onrender.com" || "http://localhost:4000";
+    //const url = "http://localhost:4000";
 
     const addToCart = async (itemId) => {
         if (!cartItems[itemId]) {
