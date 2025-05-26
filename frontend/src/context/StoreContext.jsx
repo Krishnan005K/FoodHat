@@ -77,6 +77,7 @@ const StoreContextProvider = (props) => {
         setToken,
        
     };
+    
 
     return (
         <StoreContext.Provider value={contextValue}>
