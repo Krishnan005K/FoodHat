@@ -5,7 +5,7 @@
 ---
 
 ## 🚀 Live Demo
-
+⚠️ Note: The initial load may take up to 50 seconds because the backend is hosted on Render's free tier, which puts the server to sleep when inactive. Subsequent loads will be faster once the server is awake.
 - **Frontend (User Side)**: [https://food-hat.vercel.app](https://food-hat.vercel.app)
   
 ---
